@@ -7,11 +7,6 @@ let todos = [
   { id: 2, task: "Build CRUD API", completed: false },
 ];
 
-let todos = [
-  { id: 1, task: "Learn Node.js", completed: false },
-  { id: 2, task: "Build CRUD API", completed: false },
-];
-
 // Root route
 app.get("/", (req, res) => {
   res.send("Todo API is running. Use /todos");
